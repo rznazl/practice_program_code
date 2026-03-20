@@ -5,3 +5,7 @@ while count <= 10:
     numbers.append(val)
     count += 1
 print("\nNumbers that don't have duplicates: " )
+
+for n in numbers:
+    if numbers.count(n) == 1:
+        print(n)
