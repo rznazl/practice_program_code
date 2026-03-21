@@ -10,3 +10,9 @@ while True:
         numbers.append(current_num)
     except ValueError:
         break
+
+if not numbers:
+    print("No numbers were detected.")
+else:
+    most_frequent = numbers[0]
+    max_count = 0 
