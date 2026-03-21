@@ -12,3 +12,8 @@ while True:
     except ValueError:
         print("Invalid input detected. The program will stop now.")
         break
+
+if highest is not None:
+    print(f"The highest number is {highest}.")
+else:
+    print("No numbers were entered.")
