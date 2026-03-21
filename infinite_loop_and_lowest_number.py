@@ -10,3 +10,7 @@ while True:
 
         if lowest is None or current_num < lowest:
             lowest = current_num
+
+    except valueError:
+        print("\nInvalid input detected. The program will now stop.")
+        break 
