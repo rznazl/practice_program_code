@@ -7,4 +7,8 @@ while True:
         num = int(user_input)
 
         if highest is None or num > highest:
-            highest = num 
+            highest = num
+
+    except ValueError:
+        print("Invalid input detected. The program will stop now.")
+        break
