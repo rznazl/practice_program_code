@@ -11,3 +11,7 @@ while True:
         else:
             print("Unique")
             history.append(current_num)
+
+    except ValueError:
+        print("\nInvalid input detected. Program stops.")
+        break
