@@ -5,3 +5,6 @@ while True:
 
     try:
         num = int(user_input)
+
+        if highest is None or num > highest:
+            highest = num 
