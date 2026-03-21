@@ -13,4 +13,9 @@ while True:
 
     except valueError:
         print("\nInvalid input detected. The program will now stop.")
-        break 
+        break
+
+if lowest is not None:
+    print(f"The lowest number entered is {lowest}.")
+else:
+    print("No numbers were entered.")
