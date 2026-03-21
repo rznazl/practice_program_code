@@ -23,3 +23,9 @@ else:
         if current_count > max_count:
             max_count = current_count
             most_frequent = n
+
+    if max_count > 1:
+        prin(f"The number with the most duplicates is {most_frequent}.")
+        print(f"It appeared {max_count} times.")
+    else:
+        print("All the numbers are unique and there are no duplicates found.")
