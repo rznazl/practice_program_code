@@ -9,3 +9,7 @@ for i in range(10):
 
         numbers.append(num)
 
+if duplicates:
+    print("Numbers with duplicates:", duplicates)
+else:
+    print("No duplicates found.")
