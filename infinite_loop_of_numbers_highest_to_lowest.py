@@ -6,7 +6,11 @@ while True:
     user_input = input("Enter here: ")
     try:
         num = int(user_input)
-        number.append(num)
+        numbers.append(num)
     except ValueError:
         break
         
+numbers.sort(reverse = True)
+
+print("\nNumbers from highest to lowest: ")
+print(numbers)
