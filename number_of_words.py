@@ -1,4 +1,4 @@
 statement = input("Enter any statement: ")
 words = statement.split()
 
-print("Output:", len(words))
+print("Number of words:", len(words))
