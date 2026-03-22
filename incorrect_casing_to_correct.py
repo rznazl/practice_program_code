@@ -1,1 +1,3 @@
 full_name = input("Enter your full name in incorrect casing (e.g., ApRiL dElOs ReYeS):")
+
+print("Output: ", full_name.title())
