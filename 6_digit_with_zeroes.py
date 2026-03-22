@@ -1,0 +1,2 @@
+number = int(input("Enter a number from 0 to 1000: "))
+
