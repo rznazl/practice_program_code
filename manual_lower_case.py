@@ -1,0 +1,1 @@
+full_name = input("Please enter your full name in capital letters.")
