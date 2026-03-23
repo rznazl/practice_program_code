@@ -9,3 +9,7 @@ for char in example_string:
         break
     if 'A' <= char <= 'Z':
         found_letter = True
+
+result = is_all_caps and found_letter
+
+print("Output: ", result)
