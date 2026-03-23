@@ -9,4 +9,7 @@ for char in any_statement:
         break
     if 'a' <= char <= 'z':
         found_letter = True
-        
+
+result = is_all_lower and found_letter
+
+print("Output: ", result)
