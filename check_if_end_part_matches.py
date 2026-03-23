@@ -9,4 +9,12 @@ def manual_endswith(text,suffix):
     if end_part == suffix:
         return True
     else:
-        return False 
+        return False
+
+example_statement = input ("Enter any sentence: ")
+given_suffix = input ("Enter the word to be check: ")
+
+if manual_endswith(example_statement, given_suffix):
+    print(f"Yes, The string ends with '{given_suffix}'.")
+else:
+    print(f"No, it does not match.")
