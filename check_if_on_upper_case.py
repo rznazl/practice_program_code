@@ -7,3 +7,5 @@ for char in example_string:
     if 'a' <= char <= 'z':
         is_all_caps = False
         break
+    if 'A' <= char <= 'Z':
+        found_letter = True
