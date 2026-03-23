@@ -3,3 +3,10 @@ def manual_endswith(text,suffix):
         return False
 
     n = len(suffix)
+
+    end_part = text[-n:]
+
+    if end_part == suffix:
+        return True
+    else:
+        return False 
